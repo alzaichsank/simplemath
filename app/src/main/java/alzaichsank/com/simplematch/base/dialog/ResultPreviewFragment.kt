@@ -56,7 +56,7 @@ class ResultPreviewFragment : BottomSheetDialogFragment() {
         val behavior = layoutParams.behavior
         if (behavior != null && behavior is BottomSheetBehavior<*>) {
             val screenHeight = context?.displayMetrics?.heightPixels ?: 0
-            val dialogHeight = if (screenHeight > 0) ((screenHeight + 30) - (screenHeight / 1)) else DEFAULT_PEEK_HEIGHT
+            val dialogHeight = if (screenHeight > 0) ((screenHeight + 30) - (screenHeight / 2)) else DEFAULT_PEEK_HEIGHT
             behavior.peekHeight = dialogHeight
             behavior.setBottomSheetCallback(bottomSheetCallback)
         }

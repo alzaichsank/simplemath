@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Simple Math</string>
+
+    <!-- ProgressDialog String -->
+    <string name="progress_loading">Mohon Tunggu</string>
+
+    <string name="creator">Simple Match 2019 Powered By Codehopedevloper</string>
+
+    <!--button-->
+    <string name="skip">Selanjutnya</string>
+
+    <!--intro-->
+    <string name="intro">"Aplikasi ini dibuat untuk menemukan perhitungan tambah,kali, fibonachi dan prima"
+    </string>
+
+    <!--dialog-->
+    <string name="exit_dialog">Klik dua kali untuk keluar &#8230;</string>
+
+    <!--menu-->
+    <string name="k1">Penjumlahan</string>
+    <string name="k2">Perkalian</string>
+    <string name="k3">Fibonachi</string>
+    <string name="k4">Prima</string>
+    <string name="button_save">Check Hasil</string>
+    <string name="please_input_here">Please Input here...</string>
+    <string name="hasil_dari_inputan_adalah">Hasil dari inputan adalah :</string>
+    <string name="note_1">Silahkan masukan angka yang akan di jumlah kan</string>
+    <string name="note_2">Silahkan masukan angka yang akan dikalikan</string>
+    <string name="note_3">Silahkan masukan jumlah fibonachi yang diinginkan</string>
+    <string name="note_4">Silahkan masukan jumlah bilangan prima yang diinginkan</string>
+</resources>
